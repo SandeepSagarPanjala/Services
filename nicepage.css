@@ -31193,35 +31193,53 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header {
-  background-image: none;
-}
-
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 93px;
 }
 
-.u-header .u-image-1 {
-  margin: 22px auto 26px 0;
+.u-header .u-text-1 {
+  width: 457px;
+  margin: 20px auto 0;
 }
 
-.u-header .u-logo-image-1 {
-  max-width: 64px;
-  max-height: 64px;
+.u-header .u-icon-1 {
+  height: 64px;
+  width: 64px;
+  margin: -58px auto 0 324px;
+}
+
+.u-header .u-line-1 {
+  transform-origin: left center 0px;
+  margin: 14px auto 0 0;
 }
 @media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    width: 64px;
-    height: 32px;
+  .u-header .u-icon-1 {
+    margin-top: -58px;
+    margin-left: 324px;
+  }
+
+  .u-header .u-line-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
-@media (max-width: 767px) {
-  .u-header .u-image-1 {
-    width: auto;
+
+@media (max-width: 575px) {
+  .u-header .u-text-1 {
+    width: 340px;
+  }
+
+  .u-header .u-icon-1 {
+    margin-left: 276px;
+  }
+
+  .u-header .u-line-1 {
+    margin-bottom: 13px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
-
 .u-footer {
   background-image: none;
 }
