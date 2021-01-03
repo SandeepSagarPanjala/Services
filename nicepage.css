@@ -31194,7 +31194,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header .u-sheet-1 {
-  min-height: 149px;
+  min-height: 127px;
 }
 
 .u-header .u-text-1 {
@@ -31205,9 +31205,13 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-icon-1 {
   height: 64px;
   width: 64px;
-  margin: -52px auto 41px 332px;
+  margin: -52px auto 20px 332px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 127px;
+  }
+
   .u-header .u-icon-1 {
     margin-top: -52px;
     margin-left: 332px;
